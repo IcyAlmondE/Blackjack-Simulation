@@ -26,3 +26,9 @@ Here is the table showing the expected value of each stopping parameter when usi
 | Stopping Parameter | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 |
 | ------------------ | --- | --- | --- | --- | --- | --- | --- | --- |
 | Expected Value | -9 | -6.9 | -5.1 | -3.4 | -1.8 | -0.8 | -1.7 | -6.4 |
+
+Here is the table showing the expected value of each stopping parameter when using 4 decks to play for 100,000 games.
+
+| Stopping Parameter | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 |
+| ------------------ | --- | --- | --- | --- | --- | --- | --- | --- |
+| Expected Value | -6.5 | -5.1 | -4 | -4.2 | -4.5 | -4.9 | -7.1 | -13.8 |

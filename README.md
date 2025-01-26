@@ -10,12 +10,15 @@ This project explores 2 ways of playing blackjack against the dealer: playing wi
 
 ## Methodology
 Here is the overview of the method of the project.
+
 ![スクリーンショット 2025-01-26 232507](https://github.com/user-attachments/assets/f8dff2c3-e7bd-4d5e-895b-e8ad2034da11)
 
 Decks of cards are created and the cards for each hand are randomized from the created deck. The already drawn cards are set as '0'. The A cards are recorded separately as the score value can be changed due to the total number of points.
+
 ![スクリーンショット 2025-01-26 233407](https://github.com/user-attachments/assets/cb38e833-9b19-4368-960b-63ad640dfa75)
 
 The 'stopping parameter' is then used to set the total points that the player will stop drawing, starting from 12-19 according to this histogram showing the total points to win without drawing more cards.
+
 ![スクリーンショット 2025-01-26 234115](https://github.com/user-attachments/assets/00ab01f4-9f06-46a7-bc7a-713c0e4dfbfb)
 
 The expected value of each 'stopping parameter' is determined by randoming cards for 100,000 games.

@@ -6,7 +6,7 @@ Blackjack is one of the popular gambling games in the casino, but many people ar
 
 So the objective of this project is to find the best strategy to play blackjack to minimize your loss by using Monte-Carlo method to determine the number of points which you should stop calling for more cards.
 
-This project explores 2 ways of playing blackjack against the dealer: playing with 1 deck and 4 decks. A deck of card contains 52 unique cards. Numbered cards have the score of those numbers. J, Q, K cards have the score of 10. A cards have the score of 10 but if the overall score exceeds 21, the score decreases to 1.
+This project explores 2 ways of playing blackjack against the dealer: playing with 1 deck (usually playing just for fun) and 4 decks (usually for gambling in the casino). A deck of card contains 52 unique cards. Numbered cards have the score of those numbers. J, Q, K cards have the score of 10. A cards have the score of 10 but if the overall score exceeds 21, the score decreases to 1.
 
 ## Methodology
 Here is the overview of the method of the project.
@@ -32,3 +32,10 @@ Here is the table showing the expected value of each stopping parameter when usi
 | Stopping Parameter | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 |
 | ------------------ | --- | --- | --- | --- | --- | --- | --- | --- |
 | Expected Value | -6.5 | -5.1 | -4 | -4.2 | -4.5 | -4.9 | -7.1 | -13.8 |
+
+## Conclusion
+When using only 1 deck to play, the best points to stop drawing cards is 17 with the highest expected value of -0.8 while stopping at 14 cards has the highest expected value when using 4 decks.
+
+As playing with 4 decks likely cut out the loss from picking the same card, the expected value of the points got from drawing is 7.2, which makes pretty much sense to stop at 14. However, all of the expected value are negative. The possible reason of this is the player always draw first, which gives more chance for the dealer to win.
+
+To conclude, you will likely to go bankrupt except you are very lucky.

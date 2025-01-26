@@ -19,3 +19,8 @@ The 'stopping parameter' is then used to set the total points that the player wi
 ![スクリーンショット 2025-01-26 234115](https://github.com/user-attachments/assets/00ab01f4-9f06-46a7-bc7a-713c0e4dfbfb)
 
 The expected value of each 'stopping parameter' is determined by randoming cards for 100,000 games.
+
+## Results
+Here is the table showing the expected value of each stopping parameter when using 1 deck to play for 100,000 games.
+| Stopping Parameter | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 |
+| Expected Value | -9 | -6.9 | -5.1 | -3.4 | -1.8 | -0.8 | -1.7 | -6.4 |
